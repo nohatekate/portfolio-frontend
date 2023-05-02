@@ -9,7 +9,7 @@ import Projects from './pages/Projects';
 
 
 export default function App() {
-  const URL = "<http://localhost:4000/>";
+  const URL = "http://localhost:4000/";
   return (
     <div className="App">
       <Header />

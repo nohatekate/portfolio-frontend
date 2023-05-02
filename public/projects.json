@@ -1,20 +1,20 @@
 [
     {
         "name": "Memory",
-        "live": "<https://nohatekate.github.io/Memory/>",
-        "git": "<https://github.com/nohatekate/Memory",
-        "image": "<>"
+        "live": "https://nohatekate.github.io/Memory/",
+        "git": "https://github.com/nohatekate/Memory",
+        "image": ""
     },
     {
         "name": "Allrecipes Was Taken",
-        "live": "<https://allrecipes-was-taken.herokuapp.com/recipes>",
-        "git": "<https://github.com/Madfarm/Allrecipes-was-taken>",
-        "image": "<>"
+        "live": "https://allrecipes-was-taken.herokuapp.com/recipes",
+        "git": "https://github.com/Madfarm/Allrecipes-was-taken",
+        "image": ""
     },
     {
         "name": "What Is The Plan?!",
-        "live": "<https://whatisourplan.herokuapp.com/>",
-        "git": "<https://github.com/nohatekate/what_is_the_plan_p3>",
-        "image": "<>"
+        "live": "https://whatisourplan.herokuapp.com/",
+        "git": "https://github.com/nohatekate/what_is_the_plan_p3",
+        "image": ""
     }
 ]
