@@ -6,9 +6,7 @@ export default function About(props) {
     const onButtonClick = () => {
         fetch('/resume/KatherineResumePDF.pdf').then(response => {
             response.blob().then(blob => {
-                // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
                 alink.download = 'KatherineResumePDF.pdf';
@@ -41,19 +39,15 @@ export default function About(props) {
             <div className="about-page-content">
                 <h2>{about.name}</h2>
 
-
                 <div className='email-and-resume'>
-                    <div><p>Email:</p></div>
-                    <div><a href="mailto:kateiscoding@gmail.com">{about.email}</a></div>
+                    <p>Email:</p>
+                    <a  className="a-tag-paragraph"href="mailto:kateiscoding@gmail.com">{about.email}</a>
                 </div>
 
                 <div className='email-and-resume'>
                     <p>Resume:</p>
                     <button className="icon" onClick={onButtonClick}><MdPictureAsPdf /></button>
                 </div>
-
-
-
 
                 <div className='about-details'>
 
@@ -65,8 +59,6 @@ export default function About(props) {
 
                         <p className="pre-line">{about.bio}</p>
                     </div>
-
-
 
                 </div>
 
