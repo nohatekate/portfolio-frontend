@@ -1,20 +1,25 @@
 [
     {
-        "name": "Memory",
-        "live": "https://nohatekate.github.io/Memory/",
-        "git": "https://github.com/nohatekate/Memory",
-        "image": ""
+        "name": "What Is The Plan?!",
+        "live": "https://whatisourplan.herokuapp.com/",
+        "git": "https://github.com/nohatekate/what_is_the_plan_p3",
+        "image": "/images/Group Details.png",
+        "description": "Have you ever suffered from analysis paralysis?! Have you ever wanted to hang out with your friends, but the inability to settle on a plan has left you at home on your couch alone? I introduce you to my fullstack web application, What Is The Plan?! By utilizing this app a user can create groups with their friends and family. Within a group everyone can collect hangout ideas that they want to experience together. When they have time to hang out they can allow the app to randomly choose their plan for them!"
     },
     {
         "name": "Allrecipes Was Taken",
         "live": "https://allrecipes-was-taken.herokuapp.com/recipes",
         "git": "https://github.com/Madfarm/Allrecipes-was-taken",
-        "image": ""
+        "image": "/images/Allrecipes-Main page.png",
+        "description": "Allrecipes Was Taken is a full-stack CRUD web application for hosting and sharing recipes fully equipped with accounts, authentication, details pages, all recipes page, my recipes page and more to come. Allrecipes Was Taken's back-end architecture features a recipes router that uses RESTful routing to grab associated data. It also features an index router that uses google OAuth 2 in conjuction with Passport to add authentication for users."
+        
     },
+    
     {
-        "name": "What Is The Plan?!",
-        "live": "https://whatisourplan.herokuapp.com/",
-        "git": "https://github.com/nohatekate/what_is_the_plan_p3",
-        "image": ""
+        "name": "Memory",
+        "live": "https://nohatekate.github.io/Memory/",
+        "git": "https://github.com/nohatekate/Memory",
+        "image": "/images/Memory-Image of win!.png",
+        "description": "The game starts with all cards facedown. During each turn the player will pick two cards. If the cards match the player will get a point for the match, and will start another turn. If the cards don't match the player will turn the cards back over and try again. The game is over when the player makes all matches and wins the game, or if the player runs out of turns and loses."
     }
 ]
