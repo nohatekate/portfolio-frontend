@@ -81,6 +81,7 @@ nav {
   display: flex;
   align-items: center;
 }
+
 /* p{
   white-space: pre;
 } */
@@ -88,13 +89,15 @@ a,
 h1,
 p,
 .kate,
-svg {
+svg,
+button {
   transition: all .5s ease-in-out;
 
 }
 
 a {
   padding: .1rem .3rem;
+  /* margin-right: .5rem; */
   text-decoration: none;
   border-radius: 2px;
 }
@@ -129,8 +132,6 @@ svg:hover {
 }
 
 
-.fake-button:hover {}
-
 h1 {
   font-size: 3rem;
   font-weight: 300;
@@ -161,11 +162,42 @@ h1 {
 
 }
 
-.project-details, .about-details {
+.project-details,
+.about-details {
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 1rem;
+}
+
+.email-and-resume {
+  display: flex;
+  width: 100%;
+}
+
+button {
+  border: solid 2px #202020;
+  /* min-width: 68px;
+  min-height: 32px; */
+  text-align: center;
+  display: inline-block;
+  border: none;
+  padding: .1rem .3rem;
+  margin: 0;
+  text-decoration: none;
+  background-color: #f2dce1;
+  color: #f2dce1;
+  font-family: 'Jost', sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  /* transition: background 250ms ease-in-out,  */
+              /* transform 150ms ease; */
+}
+
+button:hover{
+  background-color: #202020;
+  color: #f2dce1;
 }
 
 img {
@@ -216,24 +248,30 @@ img {
     gap: 1rem;
   }
 
-  .project-details, .about-details {
+  .project-details,
+  .about-details {
     flex-direction: row;
   }
+
+ 
 
   .project-image,
   .about-image {
     width: 50%;
   }
 
-  .project-description, .about-description {
+  .project-description,
+  .about-description {
     width: 50%;
   }
 
-  .project-description>p, .about-description>p {
+  .project-description>p,
+  .about-description>p {
     font-size: 1.25rem;
   }
 
-  .project-card>h2, .about-page-content>h2 {
+  .project-card>h2,
+  .about-page-content>h2 {
     font-size: 3rem;
     font-weight: 500;
   }
