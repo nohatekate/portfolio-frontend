@@ -25,7 +25,7 @@ export default function About(props) {
         return (
             <div className="about-page-content">
                 <h2>{about.name}</h2>
-                <h3><a href="mailto:kateiscoding@gmail.com" target="_blank">{about.email}</a></h3>
+                <h3><a href="mailto:kateiscoding@gmail.com">{about.email}</a></h3>
 
                 <div className='about-details'>
 
