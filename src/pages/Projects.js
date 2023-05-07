@@ -26,7 +26,9 @@ export default function Projects(props) {
         return projects.map((project) => (
             <div className='project-card'>
                 <h2>{project.name}</h2>
+
                 <div className='project-details'>
+                    
                     <div className='project-description'>
                         <p>{project.description}</p>
                     </div>
@@ -35,12 +37,14 @@ export default function Projects(props) {
                         <img src={project.image} alt="" />
                     </div>
                 </div>
+
                 <div className='card-button-container'>
                     <a href={project.git} target='_blank' rel="noreferrer" className='fake-button'>Github
                     </a>
                     <a href={project.live} target='_blank' rel="noreferrer" className='fake-button'>Live Site
                     </a>
                 </div>
+
             </div>
         ))
     }
