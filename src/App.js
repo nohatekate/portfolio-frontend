@@ -11,13 +11,15 @@ import Projects from './pages/Projects';
 export default function App() {
   const URL = "http://localhost:4000/";
   return (
-    <div className="App">
+    <div className="app">
       <Header />
-      <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/about' element={<About URL={URL} />} />
-        <Route path='/projects' element={<Projects URL={URL} />} />
-      </Routes>
+      <section className="content">
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route path='/about' element={<About URL={URL} />} />
+          <Route path='/projects' element={<Projects URL={URL} />} />
+        </Routes>
+      </section>
       <Footer />
     </div>
   );

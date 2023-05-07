@@ -23,10 +23,11 @@ export default function About(props) {
 
     const loaded = () => {
         return (
-            <div>
+            <div className="about-page-content">
                 <h2>{about.name}</h2>
-                <h3>{about.email}</h3>
+                <p>{about.email}</p>
                 <p>{about.bio}</p>
+                {/* <img></img> */}
             </div>
         )
     }

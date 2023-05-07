@@ -1,0 +1,24 @@
+
+/*
+HOME // ABOUT
+Hi, I'm Kate! | Software Engineer (something short to pull someone in)
+
+--background info??
+
+SKILLS page
+ (skills tools and technologies)
+???
+
+PROJECTS page (cards??? w/ live demo and github links)
+*images
+*short description
+
+PROJECT DETAILS page
+???? == project video???
+
+CONTACT page 
+
+I'm excited to be here in this space. I'm making a career swtich a little later in life. My portfolio can show you what I'm all about, a few of my projects and a way to contact me. 
+*/
+
+Brand Statement (needs work!)

@@ -1,5 +1,10 @@
 function Footer(props) {
-    return <h1>Footer</h1>;
+    return (
+        <footer>
+            <p>© Katherine Sprague 2023</p>
+        </footer>
+    )
+
 }
 
 export default Footer;

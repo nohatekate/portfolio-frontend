@@ -45,14 +45,6 @@ body {
   flex-direction: column;
 }
 
-.home-page-content{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
 
 footer {
   display: flex;
@@ -96,7 +88,7 @@ a {
 a:hover {
   background-color: #202020;
   color: #f2dce1;
-  
+
 }
 
 .icon {
@@ -120,11 +112,6 @@ svg:hover {
   min-width: 68px;
   min-height: 32px;
   text-align: center;
-}
-
-
-.fake-button:hover{
-  
 }
 
 h1 {
@@ -152,23 +139,23 @@ h1 {
   align-items: center;
   width: 100%;
   max-width: 60rem;
-  
-
 }
 
-.project-details{
+.project-details {
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 1rem;
 }
 
-img{
+img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: auto;
+  /* height: auto; */
+  max-height: 100%;
   max-width: 100%;
 
 }
+
 .project-card>h2 {
   font-size: 1.75rem;
   font-weight: 500;
@@ -185,9 +172,10 @@ img{
     padding: 3rem
   }
 
-  header{
+  header {
     height: 75px;
   }
+
   h1 {
     font-size: 6rem;
   }
@@ -209,25 +197,26 @@ img{
   }
 
   .project-details {
-    flex-direction: row;    
+    flex-direction: row;
+    
+
   }
 
-  .project-image{
-    width: 50%;
-  }
-  .project-description{
-  width: 50%;
+  .project-image {
+    /* flex-grow: 1; */
   }
 
-  .project-description>p{
-    font-size: 1.25rem;
+  .project-description {
+    width: 80%;
+    /* flex-grow: 1; */
   }
+
   .project-card>h2 {
     font-size: 3rem;
     font-weight: 500;
   }
 
-  .fake-button{
+  .fake-button {
     max-width: 68px;
     max-height: 32px;
     font-size: 16px;
