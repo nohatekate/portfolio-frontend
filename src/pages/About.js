@@ -1,19 +1,9 @@
 import { useState, useEffect } from 'react';
-import { MdPictureAsPdf } from "react-icons/md";
+
 
 export default function About(props) {
 
-    const onButtonClick = () => {
-        fetch('/resume/KatherineResumePDF.pdf').then(response => {
-            response.blob().then(blob => {
-                const fileURL = window.URL.createObjectURL(blob);
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'KatherineResumePDF.pdf';
-                alink.click();
-            })
-        })
-    }
+
 
     const [about, setAbout] = useState(null);
 
@@ -38,16 +28,7 @@ export default function About(props) {
         return (
             <div className="about-page-content">
                 <h2>{about.name}</h2>
-
-                <div className='email-and-resume'>
-                    <p>Email:</p>
-                    <a  className="a-tag-paragraph"href="mailto:kateiscoding@gmail.com">{about.email}</a>
-                </div>
-
-                <div className='email-and-resume'>
-                    <p>Resume:</p>
-                    <button className="icon" onClick={onButtonClick}><MdPictureAsPdf /></button>
-                </div>
+                <h3><a className="a-tag-paragraph" href="mailto:kateiscoding@gmail.com">{about.email}</a></h3>
 
                 <div className='about-details'>
 

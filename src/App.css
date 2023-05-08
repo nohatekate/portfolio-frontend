@@ -82,22 +82,16 @@ nav {
   align-items: center;
 }
 
-/* p{
-  white-space: pre;
-} */
-a,
 h1,
 p,
 .kate,
 svg,
 button {
   transition: all .5s ease-in-out;
-
 }
 
 a {
   padding: .1rem .3rem;
-  /* margin-right: .5rem; */
   text-decoration: none;
   border-radius: 2px;
 }
@@ -112,9 +106,13 @@ a:hover {
   display: flex;
   align-items: center;
 }
-
+svg{
+  height: 1rem;
+  width: 1rem;
+}
 svg:hover {
   fill: #f2dce1;
+  
 }
 
 .card-button-container {
@@ -176,24 +174,24 @@ h1 {
 }
 
 button {
-  border: solid 2px #202020;
-  text-align: center;
-  display: inline-block;
   border: none;
   padding: .1rem .3rem;
+  background-color: #c6a8af;
+  border-radius: 2px;
+  font-weight: 300;
+  color: #202020;
   margin: 0;
-  text-decoration: none;
-  background-color: #f2dce1;
-  color: #f2dce1;
-  font-family: 'Jost', sans-serif;
-  font-size: 1.5rem;
   cursor: pointer;
+  /* height: 1rem; */
   text-align: center;
+  text-decoration: none;
+
 }
 
 button:hover{
   background-color: #202020;
   color: #f2dce1;
+
 }
 
 img {
@@ -239,7 +237,14 @@ img {
   a {
     font-size: 2rem;
   }
-
+  svg{
+    height: 2rem;
+    width: 2rem;
+  }
+  button{
+    height: 2.6rem;
+    width: 2.6rem;
+  }
   .nav-links {
     gap: 1rem;
   }
