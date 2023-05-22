@@ -3,7 +3,7 @@
         "name": "Climb The NH 48",
         "live": "https://climbthenh48.netlify.app/",
         "git": "https://github.com/nohatekate/ClimbTheNH48Frontend",
-        "image": "/images/Group Details.png",
+        "image": "/images/my-hikes.jpg",
         "description": "Climb The NH 48 is an app to track your hikes and summits of the 48 4000 foot White Mountains located in NH. When you've summited all 48 peaks you can apply to the AMC Four Thousand Footer Club. When I first climbed these mountains we kept track of our hikes on a piece of paper. My plan for this app was to give hikers a clean, simple, and convenient way to keep track of their hikes and progress."
     },
     {
@@ -19,9 +19,7 @@
         "git": "https://github.com/Madfarm/Allrecipes-was-taken",
         "image": "/images/Allrecipes-Main page.png",
         "description": "Allrecipes Was Taken is a full-stack CRUD web application for hosting and sharing recipes fully equipped with accounts, authentication, details pages, all recipes page, my recipes page and more to come. Allrecipes Was Taken's back-end architecture features a recipes router that uses RESTful routing to grab associated data. It also features an index router that uses google OAuth 2 in conjuction with Passport to add authentication for users."
-        
     },
-    
     {
         "name": "Memory",
         "live": "https://nohatekate.github.io/Memory/",
