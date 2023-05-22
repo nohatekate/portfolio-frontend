@@ -1,5 +1,12 @@
 [
     {
+        "name": "Climb The NH 48",
+        "live": "https://climbthenh48.netlify.app/",
+        "git": "https://github.com/nohatekate/ClimbTheNH48Frontend",
+        "image": "/images/Group Details.png",
+        "description": "Climb The NH 48 is an app to track your hikes and summits of the 48 4000 foot White Mountains located in NH. When you've summited all 48 peaks you can apply to the AMC Four Thousand Footer Club. When I first climbed these mountains we kept track of our hikes on a piece of paper. My plan for this app was to give hikers a clean, simple, and convenient way to keep track of their hikes and progress."
+    },
+    {
         "name": "What Is The Plan?!",
         "live": "https://whatisourplan.herokuapp.com/",
         "git": "https://github.com/nohatekate/what_is_the_plan_p3",
